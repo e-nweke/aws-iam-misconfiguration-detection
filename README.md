@@ -62,7 +62,7 @@ Combining **secure configuration practices** (least privilege, restricted trust 
 `AWS IAM` `EC2` `S3` `Lambda` `CloudTrail` `AWS STS` `Python` `AWS CLI` `IAM Access Analyzer` `Prowler` `ScoutSuite`
 
 ## Full Report
-The complete dissertation (methodology, literature review, detailed findings, and discussion) is available in this repo: [link to your PDF once uploaded]
+The full dissertation is available on request. Feel free to connect with me on LinkedIn.
 
 ---
 *Supervised by Dr Xingang Wang, Coventry University, 2025/26*
