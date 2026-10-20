@@ -1,7 +1,7 @@
 Date,Phase,Change Made,Expected Outcome,Actual Outcome,Evidence
 2026-03-01,Baseline,Created AWS project account and selected region,AWS environment should be ready for the security experiment,AWS account successfully created and region configured,Screenshot 1
 2026-03-06,Baseline,Enabled CloudTrail trail with multi-region logging,CloudTrail should record management events across all regions,CloudTrail trail created and logging status confirmed as ON,Screenshot 2
-2026-03-06,Detection,Viewed CloudTrail event history page,Event history should show AWS activity events,CloudTrail event history page accessible with recorded events,Screenshot 3
+2026-03-06,Baseline,Viewed CloudTrail event history page,Event history should show AWS activity events,CloudTrail event history page accessible with recorded events,Screenshot 3
 2026-03-07,Baseline,Created IAM Access Analyzer at account level,Access Analyzer should monitor the account for external access risks,Access Analyzer successfully created and status shows Active,Screenshot 4
 2026-03-07,Baseline,Created local IAM project folder structure on MacBook,Project files and screenshots should be organised for the experiment,Folder structure created in Finder with required directories,Screenshot 5
 2026-03-07,Baseline,Created experiment log spreadsheet template,Experiment log should allow documentation of project activities,Spreadsheet created with required columns and saved,Screenshot 6
