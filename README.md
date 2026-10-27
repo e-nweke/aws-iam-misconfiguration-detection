@@ -58,6 +58,25 @@ All steps were traceable end-to-end through CloudTrail logs.
 ## Key Takeaway
 Combining **secure configuration practices** (least privilege, restricted trust policies) with **continuous runtime monitoring** (CloudTrail + behavioural detection) is significantly more effective than relying on static policy analysis alone which is the core argument of the dissertation and the main practical insight for anyone securing IAM in production.
 
+## Evidence
+
+Full step-by-step lab record: [experiment-log.csv](experiment-log.csv)
+
+**1. The misconfiguration: a trust policy open to any AWS identity**
+![Wildcard trust policy](screenshots/01-wildcard-trust-policy.png)
+
+**2. IAM Access Analyzer flagged EscalationRole as publicly accessible**
+![Access Analyzer finding](screenshots/02-access-analyzer-finding.png)
+
+**3. Prowler flagged OverPermissiveFullAccess as a high-severity privilege escalation risk**
+![Prowler finding](screenshots/03-prowler-finding.png)
+
+**4. My CloudTrail-based script detecting AssumeRole escalation events**
+![Custom script detection](screenshots/04-custom-script-detection.png)
+
+**5. After the fixes, the same AssumeRole attempt is denied**
+![AccessDenied after mitigation](screenshots/05-access-denied-after-fix.png)
+
 ## Tools & Technologies
 `AWS IAM` `EC2` `S3` `Lambda` `CloudTrail` `AWS STS` `Python` `AWS CLI` `IAM Access Analyzer` `Prowler` `ScoutSuite`
 
