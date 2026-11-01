@@ -75,13 +75,13 @@ Full lab record: [experiment-log.csv](experiment-log.csv)
 ![Wildcard trust policy](screenshots/01-wildcard-trust-policy.png)
 
 **2. IAM Access Analyzer flagging EscalationRole as publicly accessible**
-![Access Analyzer finding](screenshots/02-access-analyzer-finding.png)
+![Access Analyzer finding](screenshots/04-custom-script-detection.png)
 
 **3. Prowler flagging OverPermissiveFullAccess as a high-severity escalation risk**
 ![Prowler finding](screenshots/03-prowler-finding.png)
 
 **4. My CloudTrail script catching the AssumeRole escalation event**
-![Custom script detection](screenshots/04-custom-script-detection.png)
+![Custom script detection](screenshots/02-access-analyzer-finding.png)
 
 **5. Same AssumeRole attempt after the fix: denied**
 ![AccessDenied after mitigation](screenshots/05-access-denied-after-fix.png)
