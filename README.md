@@ -93,6 +93,3 @@ AWS IAM, EC2, S3, Lambda, CloudTrail, AWS STS, Python, AWS CLI, IAM Access Analy
 ## Full report
 
 Happy to share the full dissertation on request. Feel free to connect with me on LinkedIn.
-
----
-Supervised by Dr Xingang Wang, Coventry University, 2025/26
